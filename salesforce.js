@@ -1,4 +1,4 @@
-var res = dataValue("body.Patient_name").split();
+var res = (dataValue("body.Patient_name")).split();
 
 create('Contact', {
   
