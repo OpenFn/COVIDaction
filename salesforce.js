@@ -1,11 +1,11 @@
 var name = dataValue("body.Patient_name");
-var fname=name.split();
+//var fname=name.split();
 
 
 create('Contact', {
   
-  FirstName: fname[0],
-  LastName: fname[1],
+  FirstName: name[0],
+  LastName: name[1],
    Name: dataValue("body.Patient_name"),
    Age__c: dataValue("body.Age"),
    Sex__c: dataValue("body.Sex"),	
