@@ -1,5 +1,5 @@
-// Aicha testing...
-create('obj_name', {
-   attr1: "foo",
-   attr2: "bar"
+create('Contact', {
+   Name: dataValue("body.Patient_name"),
+   Age__c: dataValue("body.Age"),
+   sex
  });
