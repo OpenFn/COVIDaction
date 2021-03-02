@@ -1,4 +1,9 @@
+var res = dataValue("body.Patient_name").split();
+
 create('Contact', {
+  
+  FirstName: res[0],
+  LastName: res[1],
    Name: dataValue("body.Patient_name"),
    Age__c: dataValue("body.Age"),
    Sex__c: dataValue("body.Sex"),	
