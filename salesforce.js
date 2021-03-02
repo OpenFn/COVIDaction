@@ -4,8 +4,8 @@ var name = dataValue("body.Patient_name");
 
 create('Contact', {
   
-  FirstName: name[0],
-  LastName: name[1],
+  FirstName: dataValue("body.Patient_name"),
+  LastName: dataValue("body.Patient_name"),
    Name: dataValue("body.Patient_name"),
    Age__c: dataValue("body.Age"),
    Sex__c: dataValue("body.Sex"),	
