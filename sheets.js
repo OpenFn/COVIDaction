@@ -6,7 +6,12 @@ appendValues({
     const kobo = state.data.body;
     return [
       [
-        'aicha',
+        kobo['National_ID'],
+        kobo['Patient_name'],
+        kobo['Last_Name_of_Patient'],
+        kobo['Sex'],
+        kobo['Age'],
+        kobo['Comments'],
         ],
       ];
   },
