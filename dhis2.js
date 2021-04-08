@@ -8,15 +8,15 @@ createTEI({
       value: dataValue('body._id'),
     },
     {
-      attribute: 'sB1IHYu2xQT', //first name
+      attribute: 'sB1IHYu2xQT', // first name
       value: dataValue('body.Patient_name'),
     },
     {
-      attribute: 'ENRjVGxVL6l', //last name
-      value: dataValue('body.Patient_name'),
+      attribute: 'ENRjVGxVL6l', // last name
+      value: dataValue('body.Last_Name_of_Patient'),
     },
     {
-      attribute: 'Rv8WM2mTuS5', //age
+      attribute: 'Rv8WM2mTuS5', // age
       value: dataValue('body.Age'),
     },
   ],
