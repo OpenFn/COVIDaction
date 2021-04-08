@@ -4,7 +4,7 @@ createTEI({
   trackedEntityType: 'MCPQUTHX1Ze',
   attributes: [
     {
-      attribute: 'he05i8FUwu3', //case id
+      attribute: 'he05i8FUwu3', // case id
       value: dataValue('body._id'),
     },
     {
