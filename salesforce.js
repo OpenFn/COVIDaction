@@ -9,5 +9,6 @@
 
 create('Contact', {
  FirstName: dataValue('body.Patient_name'),
- Sex__c: dataValue('body.Sex')
+ Sex__c: dataValue('body.Sex'),
+ LastName: "TEST"
 });
