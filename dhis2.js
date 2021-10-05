@@ -2,22 +2,8 @@ createTEI({
   orgUnit: 'DiszpKrYNg8',
   trackedEntityType: 'nEenWmSyUEp',
   attributes: [
-    {
-      attribute: 'he05i8FUwu3', // case id
-      value: dataValue('body._id'),
-    },
-    {
-      attribute: 'sB1IHYu2xQT', // first name
-      value: dataValue('body.Patient_name'),
-    },
-    {
-      attribute: 'ENRjVGxVL6l', // last name
-      value: dataValue('body.Last_Name_of_Patient'),
-    },
-    {
-      attribute: 'Rv8WM2mTuS5', // age
-      value: dataValue('body.Age'),
-    },  
+    { attribute: 'zDhUuAYrxNC', value: dataValue('body.Patient_name') },
+    { attribute: 'w75KJ2mc4zz', value: dataValue('body.Last_Name_of_Patient') },
   ],
   enrollments: [
     {
