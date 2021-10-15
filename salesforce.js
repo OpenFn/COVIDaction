@@ -1,3 +1,12 @@
+fn(state => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log("wait, and then return");
+      resolve(state);
+    }, 2000);   
+  });
+});
+
 create('Contact', {
   FirstName: dataValue("body.Patient_name"),
   LastName: dataValue('body.Last_Name_of_Patient'),
