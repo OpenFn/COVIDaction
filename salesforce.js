@@ -1,4 +1,4 @@
-fn(state => {
+alterState(state => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       console.log("wait, and then return");
