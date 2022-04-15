@@ -14,7 +14,7 @@ appendValues({
         kobo['Sex'],
         kobo['Age'],
         kobo['Comments'],
-        new Date(),
+        Date(),
       ],
     ];
   },
