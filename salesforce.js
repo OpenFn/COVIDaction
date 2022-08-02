@@ -7,6 +7,8 @@ alterState(state => {
   });
 });
 
+dataValue('body.Patient_name')
+
 create('Contact', {
   FirstName: dataValue("body.Patient_name"),
   LastName: dataValue('body.Last_Name_of_Patient'),
