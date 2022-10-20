@@ -1,14 +1,3 @@
-alterState(state => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      console.log("wait, and then return");
-      resolve(state);
-    }, 2000);   
-  });
-});
-
-dataValue('body.Patient_name')
-
 create('Contact', {
   FirstName: dataValue("body.Patient_name"),
   LastName: dataValue('body.Last_Name_of_Patient'),
