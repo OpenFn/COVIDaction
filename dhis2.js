@@ -8,8 +8,8 @@ create('trackedEntityInstances', {
   ],
   enrollments: [
     {
-      orgUnit: 'DiszpKrYNg8',
-      program: 'uy2gU8kT1jF',
+      orgUnit: 'g8upMTyEZGZ',
+      program: 'IpHINAT79UW',
       programState: 'oRySG82BKE6', // active
       enrollmentDate: dataValue('body.Date'),
       incidentDate: dataValue('body.Date'),
