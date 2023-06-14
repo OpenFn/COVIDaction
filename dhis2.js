@@ -1,4 +1,4 @@
-createTEI({
+create('trackedEntityInstance', {
   orgUnit: 'r5WWF9WDzoa',
   trackedEntityType: 'nEenWmSyUEp',
   program: 'uy2gU8kT1jF',
