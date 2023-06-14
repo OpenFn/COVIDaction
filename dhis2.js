@@ -1,4 +1,4 @@
-create('trackedEntityInstance', {
+create('trackedEntityInstances', {
   orgUnit: 'g8upMTyEZGZ',
   trackedEntityType: 'nEenWmSyUEp',
   // program: '',
