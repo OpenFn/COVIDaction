@@ -14,5 +14,5 @@ create('trackedEntityInstances', {
       enrollmentDate: dataValue('body.Date'),
       incidentDate: dataValue('body.Date'),
     },
-   ],
+  ],
 });
