@@ -1,4 +1,4 @@
-create('Ccontact', {
+create('Contact', {
   FirstName: dataValue("body.Patient_name"),
   LastName: dataValue('body.Last_Name_of_Patient'),
   Age__c: dataValue("body.Age"),
